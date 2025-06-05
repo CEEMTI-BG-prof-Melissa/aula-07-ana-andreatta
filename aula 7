@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <h1>Cadastro Pessoal</h1>
+        <form action="recebe.html" method="get">
+            Nome completo: <input type="text" maxlength="50">
+            <br> <br>
+            Senha: <input type="password">
+            <br> <br>
+            E-mail: <input type="email">
+            <br> <br>
+            Data de nascimento: <input type="date" min="2000-01-01" max="2024-12-31">
+            <br> <br>
+            Idade: <input type="number" min="1" max="120">
+            <br> <br>
+            <textarea rows="4" cols="40"></textarea>
+            <br> <br>
+            <select>
+                <option>Programação</option>
+                <option>Design</option>
+                <option>Rede</option>
+                <option>Suporte</option>
+            </select>
+            <br> <br>
+            <button type="submit">Entrar</button>
+            <br> <br>
+        </form>
+    </body>
+</html>
+<html>
+     <body>
+    <h1> Dados recedbidos </h1>
+     </body>
+</html>
